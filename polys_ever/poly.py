@@ -24,6 +24,34 @@ class Poly:
         self.degree = degree
         self.values = values_poly
 
+    @staticmethod
+    def biggerDeg(deg1, deg2):
+
+        if deg1 > deg2:
+            return deg1
+        return deg2
+
+    @staticmethod
+    def add(values1, values2):
+
+        newValues = []
+
+        for value1, value2 in values1, values2:
+            newValues.append(value1 + value2)
+
+
+    def __add__(self, other):
+
+        if not isinstance(other, self.__class__):
+            raise TypeError("can not add type ",
+                            type(other), " to type ", self.__class__)
+
+        newDeg = self.biggerDeg(other.degree, self.degree)
+
+
+
+
+
 
 
 
