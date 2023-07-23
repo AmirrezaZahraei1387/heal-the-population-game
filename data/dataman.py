@@ -4,10 +4,11 @@ data and configurations of the game."""
 import json
 import pathlib
 import os
+import polys_ever
 
 
-CONFIG_JSON_PATH = pathlib.Path("config.json").absolute()
-MAIN_DIR_PATH = pathlib.Path("main").absolute()
+CONFIG_JSON_PATH = str(pathlib.Path("config.json").absolute())
+MAIN_DIR_PATH = str(pathlib.Path("main").absolute())
 
 
 class DataM:
@@ -60,6 +61,17 @@ class DataM:
         path = pathlib.Path(MAIN_DIR_PATH+'/'+creatureName+'/'
                             + self.polyName).absolute()
         return path
+
+    def getPolyObj(self, creatureName):
+        """it will read the all the data of the file poly.txt,
+        and will return the object of it back"""
+        with open(file = str(self.getPolyObj(creatureName)), mode='r', encoding="utf-8") as data:
+            lines = data.readlines()
+            for index in range(0, len(lines)):
+                lines[index] = int(lines[index])
+        data.close()
+
+        return lines
 
     def saveData(self):
 
