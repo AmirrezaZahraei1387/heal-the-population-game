@@ -3,6 +3,18 @@ doing arithmetic with them.
 the degree of them should be specified by the programmer."""
 
 
+def otherParaCheck(method):
+    """this is a decorator created to check the other parameter in the
+    additions or subtractions of the following class"""
+    def newMethod(self, other):
+        if not isinstance(other, self.__class__):
+            raise TypeError("can not add type ",
+                            type(other), " to type ", self.__class__)
+
+        newMethod.__doc__ = method.__doc__  # putting the method doc to the newMethod, so it won't be lost
+
+        return method(self, other)
+    return newMethod
 
 
 class Poly:
@@ -38,13 +50,29 @@ class Poly:
             return other
         return self
 
+    def sub(self, other):
+
+        newValue = []
+        maxDegree = self.maxDegV(other).degree
+
+        for index in range(0, maxDegree + 1):
+            try:
+                newValue.append(self.values[index] - other.values[index])
+            except IndexError:
+                if maxDegree == self.degree:
+                    newValue.append(self.values[index])
+                else:
+                    newValue.append(other.values[index])
+
+        return newValue
+
     def add(self, other):
 
         newValue = []
 
         minValue = self.minDegV(other)
         maxValue = self.maxDegV(other)
-
+        # here the sequence in not matter as it is addition
         for index in range(0, minValue.degree + 1):
             newValue.append(minValue.values[index] + maxValue.values[index])
 
@@ -53,14 +81,17 @@ class Poly:
 
         return newValue
 
+    @otherParaCheck
     def __add__(self, other):
-
-        if not isinstance(other, self.__class__):
-            raise TypeError("can not add type ",
-                            type(other), " to type ", self.__class__)
 
         additionResult = self.add(other)
         newPoly = self.__class__(degree=len(additionResult)-1, values_poly=additionResult)
+        return newPoly
+
+    @otherParaCheck
+    def __sub__(self, other):
+        subtractionResult = self.sub(other)
+        newPoly = self.__class__(degree=len(subtractionResult)-1, values_poly=subtractionResult)
         return newPoly
 
     def __str__(self):
@@ -75,6 +106,7 @@ class Poly:
             polyStr += str(coeff)+self.defaultUsedVar+"**"+str(counter)+'+'
 
         return polyStr
+
 
 
 
