@@ -95,7 +95,7 @@ class Poly:
         return newPoly
 
     def __str__(self):
-        """it will print the poly using the powers
+        """it will print the poly.txt.txt.txt.txt using the powers
         of a variable"""
 
         counter = -1

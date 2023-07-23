@@ -1,5 +1,7 @@
 {
-  "degree": {"degree": 2},
+  "degree": 2,
+  "imageFormat": "png",
+  "polyName": "poly.txt",
 
   "virus": {
     "maxVirusDegree": 2,
