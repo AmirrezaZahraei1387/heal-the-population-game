@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="THE poly is renamed to have the format of .txt and the dataman is created to properly handle the data" />
+    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="the __init__ file is creTED">
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataman.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameEval/gamem.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameEval/gamem.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +56,8 @@
       <recent name="E:\Github-Repos\htp\data\cat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github-Repos\htp" />
+      <recent name="E:\Github-Repos\htp\data" />
       <recent name="E:\Github-Repos\htp\data\main" />
       <recent name="E:\Github-Repos\htp\data\flower" />
     </key>
@@ -182,6 +188,7 @@
       <updated>1690056759185</updated>
       <workItem from="1690068291463" duration="6112000" />
       <workItem from="1690077164717" duration="1947000" />
+      <workItem from="1690143612684" duration="1057000" />
     </task>
     <task id="LOCAL-00001" summary="the virtual envirement is created and some info is added to readme.md">
       <created>1690057320540</created>
@@ -274,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690079106167</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="the data manger is created to mange the data">
+      <created>1690144227886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690144227886</updated>
+    </task>
+    <task id="LOCAL-00015" summary="the __init__ file is creTED">
+      <created>1690144269832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690144269832</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,10 +338,13 @@
     <MESSAGE value="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it." />
     <MESSAGE value="all the files are moved into main dir and also the two &#10;python file dataman and __init__ are added" />
     <MESSAGE value="THE poly is renamed to have the format of .txt and the dataman is created to properly handle the data" />
-    <option name="LAST_COMMIT_MESSAGE" value="THE poly is renamed to have the format of .txt and the dataman is created to properly handle the data" />
+    <MESSAGE value="the data manger is created to mange the data" />
+    <MESSAGE value="the __init__ file is creTED" />
+    <option name="LAST_COMMIT_MESSAGE" value="the __init__ file is creTED" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/htp$dataman.coverage" NAME="dataman Coverage Results" MODIFIED="1690079036338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/htp$dataman.coverage" NAME="dataman Coverage Results" MODIFIED="1690144438863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/htp$gamem.coverage" NAME="gamem Coverage Results" MODIFIED="1690144663249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameEval" />
     <SUITE FILE_PATH="coverage/htp$poly.coverage" NAME="poly Coverage Results" MODIFIED="1690072837513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polys_ever" />
   </component>
 </project>

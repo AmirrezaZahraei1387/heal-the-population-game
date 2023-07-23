@@ -2,12 +2,12 @@
 data and configurations of the game."""
 
 import json
-import os
 import pathlib
+import os
 
 
-CONFIG_JSON_PATH = "config.json"
-MAIN_DIR_PATH = "main"
+CONFIG_JSON_PATH = pathlib.Path("config.json").absolute()
+MAIN_DIR_PATH = pathlib.Path("main").absolute()
 
 
 class DataM:
