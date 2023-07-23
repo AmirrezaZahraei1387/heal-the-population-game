@@ -3,16 +3,26 @@ game that will do all the backend calculations.
 here we first will generate the virus to make a sick
 we give it back."""
 import dataman
-import polys_ever
-
-
-data = dataman.DataM()
+import errors
 
 
 class GameM:
 
     def __init__(self):
         try:
-            data = dataman.DataM()
+            self.data = dataman.DataM()
         except Exception:
-            raise
+            raise errors.CanNotOpenDataError("can not open data")
+
+
+    def openPoly(self, creatureName):
+        """opening the poly.txt read it and give the
+        object of it back"""
+
+
+
+
+
+
+
+
