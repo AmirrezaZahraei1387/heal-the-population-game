@@ -6,6 +6,9 @@ import dataman
 import errors
 import random
 
+import polys_ever
+
+
 class GameM:
 
     sickNumber: int
@@ -20,10 +23,26 @@ class GameM:
 
     def gameSetUp(self, sickNumber):
         """sickNumber is the number of sicks for the game"""
-        self.sickNumber = sickNumber
+        if self.data.minSickNumber <= sickNumber <= self.data.maxSickNumber:
+            self.sickNumber = sickNumber
+        else:
+            raise ValueError("the sickNumber is not in accepted range")
 
     def generateVirus(self):
-        pass
+
+        values = []
+
+        degree = random.randint(self.data.minVirusDegree, self.data.maxVirusDegree)
+
+        for i in range(degree+1):
+            values.append(random.randint(self.data.minVirusRange, self.data.maxVirusRange))
+
+        return polys_ever.Poly(degree, values)
+
+    def generateQuestion(self):
+
+
+
 
 
 
