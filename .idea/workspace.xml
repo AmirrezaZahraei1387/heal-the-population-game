@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="errors is added">
+    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="the method named generateVirus is created and it is tested">
       <change beforePath="$PROJECT_DIR$/data/gamem.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/gamem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/errors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,7 @@
       <updated>1690056759185</updated>
       <workItem from="1690068291463" duration="6112000" />
       <workItem from="1690077164717" duration="1947000" />
-      <workItem from="1690143612684" duration="1815000" />
+      <workItem from="1690143612684" duration="4716000" />
     </task>
     <task id="LOCAL-00001" summary="the virtual envirement is created and some info is added to readme.md">
       <created>1690057320540</created>
@@ -308,7 +307,49 @@
       <option name="project" value="LOCAL" />
       <updated>1690145206941</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="errors is added">
+      <created>1690145682684</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690145682684</updated>
+    </task>
+    <task id="LOCAL-00019" summary="a new function that will return the poly object is addded to dataman">
+      <created>1690146075163</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690146075163</updated>
+    </task>
+    <task id="LOCAL-00020" summary="the error in the dataman is solved. the error was this that mwthod getpolyobj called itself multiple times">
+      <created>1690146728601</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1690146728601</updated>
+    </task>
+    <task id="LOCAL-00021" summary="the method gameSetUp is now created">
+      <created>1690147026906</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1690147026906</updated>
+    </task>
+    <task id="LOCAL-00022" summary="the config is changed to keep track of more ranges of values">
+      <created>1690147634046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690147634046</updated>
+    </task>
+    <task id="LOCAL-00023" summary="the method named generateVirus is created and it is tested">
+      <created>1690148147147</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1690148147147</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,11 +396,16 @@
     <MESSAGE value="the __init__ file is creTED" />
     <MESSAGE value="the gamem is moved to data" />
     <MESSAGE value="errors is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="errors is added" />
+    <MESSAGE value="a new function that will return the poly object is addded to dataman" />
+    <MESSAGE value="the error in the dataman is solved. the error was this that mwthod getpolyobj called itself multiple times" />
+    <MESSAGE value="the method gameSetUp is now created" />
+    <MESSAGE value="the config is changed to keep track of more ranges of values" />
+    <MESSAGE value="the method named generateVirus is created and it is tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="the method named generateVirus is created and it is tested" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/htp$dataman.coverage" NAME="dataman Coverage Results" MODIFIED="1690144845174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/htp$gamem.coverage" NAME="gamem Coverage Results" MODIFIED="1690145415048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/htp$gamem.coverage" NAME="gamem Coverage Results" MODIFIED="1690148044012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/htp$poly.coverage" NAME="poly Coverage Results" MODIFIED="1690072837513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polys_ever" />
   </component>
 </project>

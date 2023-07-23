@@ -11,7 +11,7 @@ import polys_ever
 
 class GameM:
 
-    sickNumber: int
+    sickNumber: int = 0
 
     def __init__(self):
 
@@ -41,12 +41,18 @@ class GameM:
 
     def generateQuestion(self):
 
+        if self.sickNumber == 0:
+            raise ValueError("the questions are finished")
         index = random.randint(0, len(self.data.availableCreatures))    # it is a random
         # index for choosing a creature for making a question for the game
 
         creaturePolyObj = self.allPoly[index]
         creatureName = self.data.availableCreatures[index]
+        virus = self.generateVirus()
 
+        sickCreature = creaturePolyObj + virus
+        self.sickNumber -= 1
+        return sickCreature, virus, creaturePolyObj, creatureName, self.data.getImagePath(creatureName)
 
 
 
