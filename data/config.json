@@ -1,5 +1,5 @@
 {
-  "cre": {"degree": 2},
+  "degree": {"degree": 2},
 
   "virus": {
     "maxVirusDegree": 2,

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="a doctring containing some explanations is added">
-      <change afterPath="$PROJECT_DIR$/data/cat/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cat/poly" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dog/dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dog/poly" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/flower/poly" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/human/human.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/human/poly" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +50,9 @@
       <recent name="E:\Github-Repos\htp\data\dog" />
       <recent name="E:\Github-Repos\htp\data\human" />
       <recent name="E:\Github-Repos\htp\data\cat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github-Repos\htp\data\flower" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690056759185</updated>
-      <workItem from="1690068291463" duration="5626000" />
+      <workItem from="1690068291463" duration="6112000" />
     </task>
     <task id="LOCAL-00001" summary="the virtual envirement is created and some info is added to readme.md">
       <created>1690057320540</created>
@@ -243,7 +237,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690073566413</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="the photos are added as the needed data">
+      <created>1690074507773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690074507773</updated>
+    </task>
+    <task id="LOCAL-00010" summary="the polynomial related to each creature is added">
+      <created>1690074679282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690074679282</updated>
+    </task>
+    <task id="LOCAL-00011" summary="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it.">
+      <created>1690074936486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690074936486</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +296,10 @@
     <MESSAGE value="the __init__ file is created" />
     <MESSAGE value="the python pakage gameEval is noe added" />
     <MESSAGE value="a doctring containing some explanations is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="a doctring containing some explanations is added" />
+    <MESSAGE value="the photos are added as the needed data" />
+    <MESSAGE value="the polynomial related to each creature is added" />
+    <MESSAGE value="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it." />
+    <option name="LAST_COMMIT_MESSAGE" value="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/htp$poly.coverage" NAME="poly Coverage Results" MODIFIED="1690072837513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polys_ever" />
