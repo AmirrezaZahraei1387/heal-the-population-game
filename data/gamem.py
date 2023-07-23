@@ -41,6 +41,15 @@ class GameM:
 
     def generateQuestion(self):
 
+        index = random.randint(0, len(self.data.availableCreatures))    # it is a random
+        # index for choosing a creature for making a question for the game
+
+        creaturePolyObj = self.allPoly[index]
+        creatureName = self.data.availableCreatures[index]
+
+
+
+
 
 
 
