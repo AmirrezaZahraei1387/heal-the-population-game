@@ -9,18 +9,12 @@ import errors
 class GameM:
 
     def __init__(self):
-        try:
-            self.data = dataman.DataM()
-        except Exception:
-            raise errors.CanNotOpenDataError("can not open data")
 
+        self.data = dataman.DataM()
+        self.allPoly = []
 
-    def openPoly(self, creatureName):
-        """opening the poly.txt read it and give the
-        object of it back"""
-
-
-
+        for creature in self.data.availableCreatures:
+            self.allPoly.append(self.data.getPolyObj(creature))
 
 
 

@@ -65,13 +65,18 @@ class DataM:
     def getPolyObj(self, creatureName):
         """it will read the all the data of the file poly.txt,
         and will return the object of it back"""
-        with open(file = str(self.getPolyObj(creatureName)), mode='r', encoding="utf-8") as data:
-            lines = data.readlines()
-            for index in range(0, len(lines)):
-                lines[index] = int(lines[index])
+        path = self.getPolyPath(creatureName)
+
+        data = open(file=path, mode='r', encoding="utf-8")
+
+        lines = data.readlines()
+        length = len(lines)
+        for index in range(0, len(lines)):
+            lines[index] = int(lines[index])
+
         data.close()
 
-        return lines
+        return polys_ever.Poly(length - 1, lines)
 
     def saveData(self):
 
