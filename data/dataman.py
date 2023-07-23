@@ -61,6 +61,25 @@ class DataM:
                             + self.polyName).absolute()
         return path
 
+    def saveData(self):
+
+        data = {
+            "degree": self.degree,
+            "imageFormat": self.imageFormat,
+            "polyName": self.polyName,
+
+            "virus": {
+                "maxVirusDegree": self.maxVirusDegree,
+                "minVirusDegree": self.minVirusDegree
+            }
+            }
+        with open(file=CONFIG_JSON_PATH, mode='w', encoding="utf-8") as conf:
+            json.dump(data, conf, indent=3)
+        conf.close()
+
+
+
+
 
 
 

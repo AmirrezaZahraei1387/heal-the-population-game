@@ -1,10 +1,9 @@
 {
-  "degree": 2,
-  "imageFormat": "png",
-  "polyName": "poly.txt",
-
-  "virus": {
-    "maxVirusDegree": 2,
-    "minVirusDegree": 0
-  }
+   "degree": 2,
+   "imageFormat": "png",
+   "polyName": "poly.txt",
+   "virus": {
+      "maxVirusDegree": 2,
+      "minVirusDegree": 0
+   }
 }
