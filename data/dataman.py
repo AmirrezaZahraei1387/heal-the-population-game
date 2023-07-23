@@ -19,10 +19,20 @@ class DataM:
         conf.close()
 
         self.__degree = config["degree"]
+
         self.__maxVirusDegree = config["virus"]["maxVirusDegree"]
         self.__minVirusDegree = config["virus"]["minVirusDegree"]
+
+        self.__maxVirusRange = config["virus"]["maxRange"]
+        self.__minVirusRange = config["virus"]["minRange"]
+
+        self.__maxSickNumber = config["sickNumber"]["maxSickNumber"]
+        self.__minSickNumber = config["sickNumber"]["minSickNumber"]
+
         self.__availableCreatures = os.listdir(MAIN_DIR_PATH)
+
         self.__imageFormat = config["imageFormat"]
+
         self.__polyName = config["polyName"]
 
     # make these variables read only
@@ -49,6 +59,22 @@ class DataM:
     @property
     def polyName(self):
         return self.__polyName
+
+    @property
+    def maxSickNumber(self):
+        return self.__maxSickNumber
+
+    @property
+    def minSickNumber(self):
+        return self.__minSickNumber
+
+    @property
+    def maxVirusRange(self):
+        return self.__maxVirusRange
+
+    @property
+    def minVirusRange(self):
+        return self.__minVirusRange
 
     def getImagePath(self, creatureName):
 
@@ -87,7 +113,13 @@ class DataM:
 
             "virus": {
                 "maxVirusDegree": self.maxVirusDegree,
-                "minVirusDegree": self.minVirusDegree
+                "minVirusDegree": self.minVirusDegree,
+                "maxRange": self.maxVirusRange,
+                "minRange": self.minVirusRange
+            },
+            "sickNumber": {
+                "maxSickNumber": self.maxSickNumber,
+                "minSickNumber": self.minSickNumber
             }
             }
         with open(file=CONFIG_JSON_PATH, mode='w', encoding="utf-8") as conf:

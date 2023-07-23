@@ -23,8 +23,7 @@ class GameM:
         self.sickNumber = sickNumber
 
     def generateVirus(self):
-
-
+        pass
 
 
 
