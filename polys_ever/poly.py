@@ -24,21 +24,32 @@ class Poly:
         self.degree = degree
         self.values = values_poly
 
-    @staticmethod
-    def biggerDeg(deg1, deg2):
+    def minDegV(self, other):
 
-        if deg1 > deg2:
-            return deg1
-        return deg2
+        if self.degree > other:
+            return other
+        return self
 
-    @staticmethod
-    def add(values1, values2):
+    def maxDegV(self, other):
 
-        newValues = []
+        if self.degree < other:
+            return other
+        return self
 
-        for value1, value2 in values1, values2:
-            newValues.append(value1 + value2)
+    def add(self, other):
 
+        newValue = []
+
+        minValue = self.minDegV(other=other)
+        maxValue = self.maxDegV(other=other)
+
+        for index in range(0, minValue.degree + 1):
+            newValue.append(minValue[index] + maxValue[index])
+
+        for index in range(minValue+1, maxValue.degree + 1):
+            newValue.append(maxValue[index])
+
+        return newValue
 
     def __add__(self, other):
 
@@ -46,7 +57,11 @@ class Poly:
             raise TypeError("can not add type ",
                             type(other), " to type ", self.__class__)
 
-        newDeg = self.biggerDeg(other.degree, self.degree)
+
+
+
+
+
 
 
 
