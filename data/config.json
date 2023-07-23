@@ -1,0 +1,8 @@
+{
+  "cre": {"degree": 2},
+
+  "virus": {
+    "maxVirusDegree": 2,
+    "minVirusDegree": 0
+  }
+}
