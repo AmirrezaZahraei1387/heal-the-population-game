@@ -1,17 +1,23 @@
 {
+
    "degree": 2,
    "imageFormat": "png",
    "polyName": "poly.txt",
 
    "sickNumber": {
+
       "maxSickNumber": 20,
       "minSickNumber": 10
+
    },
 
    "virus": {
+
       "maxVirusDegree": 2,
       "minVirusDegree": 0,
+
       "maxRange": 6,
       "minRange": -6
+
    }
 }

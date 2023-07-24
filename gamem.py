@@ -3,10 +3,9 @@ game that will do all the backend calculations.
 here we first will generate the virus to make a sick
 we give it back."""
 import dataman
-import errors
 import random
 
-import polys_ever
+import poly as polys_ever
 
 
 class GameM:

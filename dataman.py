@@ -4,11 +4,11 @@ data and configurations of the game."""
 import json
 import pathlib
 import os
-import polys_ever
+import poly as polys_ever
 
 
-CONFIG_JSON_PATH = str(pathlib.Path("config.json").absolute())
-MAIN_DIR_PATH = str(pathlib.Path("main").absolute())
+CONFIG_JSON_PATH = str(pathlib.Path("data/config.json").absolute())
+MAIN_DIR_PATH = str(pathlib.Path("data/main").absolute())
 
 
 class DataM:

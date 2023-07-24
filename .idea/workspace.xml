@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="the method named generateVirus is created and it is tested">
-      <change beforePath="$PROJECT_DIR$/data/gamem.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/gamem.py" afterDir="false" />
+    <list default="true" id="04a5a1ad-dbb1-4eb4-bcfa-f369c6b5189a" name="Changes" comment="deleted">
+      <change afterPath="$PROJECT_DIR$/polys_ever/poly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,154 +40,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Github-Repos/htp/data/dog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mzx776/Desktop/heal-the-population-game&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github-Repos\htp\data\dog" />
-      <recent name="E:\Github-Repos\htp\data\human" />
-      <recent name="E:\Github-Repos\htp\data\cat" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github-Repos\htp\data" />
-      <recent name="E:\Github-Repos\htp" />
-      <recent name="E:\Github-Repos\htp\data\main" />
-      <recent name="E:\Github-Repos\htp\data\flower" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="heal-the-population-game" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d00c50b0-c820-42c3-8399-8d023fee246d" name="Changes" comment="" />
+      <changelist id="04a5a1ad-dbb1-4eb4-bcfa-f369c6b5189a" name="Changes" comment="" />
       <created>1690056759185</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690056759185</updated>
-      <workItem from="1690068291463" duration="6112000" />
-      <workItem from="1690077164717" duration="1947000" />
-      <workItem from="1690143612684" duration="4716000" />
     </task>
     <task id="LOCAL-00001" summary="the virtual envirement is created and some info is added to readme.md">
       <created>1690057320540</created>
@@ -202,210 +66,12 @@
       <option name="project" value="LOCAL" />
       <updated>1690057451131</updated>
     </task>
-    <task id="LOCAL-00003" summary="the function add that will add two polys is added">
-      <created>1690070663999</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1690070663999</updated>
-    </task>
-    <task id="LOCAL-00004" summary="the __str__ function is now created to print the result of the polynimal">
-      <created>1690071273003</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1690071273003</updated>
-    </task>
-    <task id="LOCAL-00005" summary="the __sub__ is created to substract the polys">
-      <created>1690072784387</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1690072784387</updated>
-    </task>
-    <task id="LOCAL-00006" summary="the __init__ file is created">
-      <created>1690072946984</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1690072946984</updated>
-    </task>
-    <task id="LOCAL-00007" summary="the python pakage gameEval is noe added">
-      <created>1690073211491</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1690073211491</updated>
-    </task>
-    <task id="LOCAL-00008" summary="a doctring containing some explanations is added">
-      <created>1690073566413</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1690073566413</updated>
-    </task>
-    <task id="LOCAL-00009" summary="the photos are added as the needed data">
-      <created>1690074507773</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1690074507773</updated>
-    </task>
-    <task id="LOCAL-00010" summary="the polynomial related to each creature is added">
-      <created>1690074679282</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1690074679282</updated>
-    </task>
-    <task id="LOCAL-00011" summary="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it.">
-      <created>1690074936486</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1690074936486</updated>
-    </task>
-    <task id="LOCAL-00012" summary="all the files are moved into main dir and also the two &#10;python file dataman and __init__ are added">
-      <created>1690077465042</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1690077465042</updated>
-    </task>
-    <task id="LOCAL-00013" summary="THE poly is renamed to have the format of .txt and the dataman is created to properly handle the data">
-      <created>1690079106167</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1690079106167</updated>
-    </task>
-    <task id="LOCAL-00014" summary="the data manger is created to mange the data">
-      <created>1690144227886</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1690144227886</updated>
-    </task>
-    <task id="LOCAL-00015" summary="the __init__ file is creTED">
-      <created>1690144269832</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1690144269832</updated>
-    </task>
-    <task id="LOCAL-00016" summary="the gamem is moved to data">
-      <created>1690145063054</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1690145063054</updated>
-    </task>
-    <task id="LOCAL-00017" summary="errors is added">
-      <created>1690145206941</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1690145206941</updated>
-    </task>
-    <task id="LOCAL-00018" summary="errors is added">
-      <created>1690145682684</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1690145682684</updated>
-    </task>
-    <task id="LOCAL-00019" summary="a new function that will return the poly object is addded to dataman">
-      <created>1690146075163</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1690146075163</updated>
-    </task>
-    <task id="LOCAL-00020" summary="the error in the dataman is solved. the error was this that mwthod getpolyobj called itself multiple times">
-      <created>1690146728601</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1690146728601</updated>
-    </task>
-    <task id="LOCAL-00021" summary="the method gameSetUp is now created">
-      <created>1690147026906</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1690147026906</updated>
-    </task>
-    <task id="LOCAL-00022" summary="the config is changed to keep track of more ranges of values">
-      <created>1690147634046</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1690147634046</updated>
-    </task>
-    <task id="LOCAL-00023" summary="the method named generateVirus is created and it is tested">
-      <created>1690148147147</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1690148147147</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/backend" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the virtual envirement is created and some info is added to readme.md" />
     <MESSAGE value="new python pakage for project named polys_ever added" />
-    <MESSAGE value="the function add that will add two polys is added" />
-    <MESSAGE value="the __str__ function is now created to print the result of the polynimal" />
-    <MESSAGE value="the __sub__ is created to substract the polys" />
-    <MESSAGE value="the __init__ file is created" />
-    <MESSAGE value="the python pakage gameEval is noe added" />
-    <MESSAGE value="a doctring containing some explanations is added" />
-    <MESSAGE value="the photos are added as the needed data" />
-    <MESSAGE value="the polynomial related to each creature is added" />
-    <MESSAGE value="config.json is created and info about the degree of viruses&#10;and the degree of the polys in data are now in  it." />
-    <MESSAGE value="all the files are moved into main dir and also the two &#10;python file dataman and __init__ are added" />
-    <MESSAGE value="THE poly is renamed to have the format of .txt and the dataman is created to properly handle the data" />
-    <MESSAGE value="the data manger is created to mange the data" />
-    <MESSAGE value="the __init__ file is creTED" />
-    <MESSAGE value="the gamem is moved to data" />
-    <MESSAGE value="errors is added" />
-    <MESSAGE value="a new function that will return the poly object is addded to dataman" />
-    <MESSAGE value="the error in the dataman is solved. the error was this that mwthod getpolyobj called itself multiple times" />
-    <MESSAGE value="the method gameSetUp is now created" />
-    <MESSAGE value="the config is changed to keep track of more ranges of values" />
-    <MESSAGE value="the method named generateVirus is created and it is tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="the method named generateVirus is created and it is tested" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/htp$dataman.coverage" NAME="dataman Coverage Results" MODIFIED="1690144845174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/htp$gamem.coverage" NAME="gamem Coverage Results" MODIFIED="1690148044012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/htp$poly.coverage" NAME="poly Coverage Results" MODIFIED="1690072837513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polys_ever" />
+    <option name="LAST_COMMIT_MESSAGE" value="new python pakage for project named polys_ever added" />
   </component>
 </project>
